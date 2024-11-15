@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+
+:root {
+    --color-de-fondo-principal:  #ececec ;
+    --color-de-fondo-h3: #7b564a;
+    --color-hipervinculos: #eb722e;
+    --color-hipervinculos-nacion: #51b4ca;
+    --color-hipervinculos-pag12: #ed636a;
+    --color-letra: #d8b13c;
+    --color-letra-texto:#9e7766;
+    --color-letra-h3:#d4ccc9;
+    --tipografia:Verdana, Arial, sans-serif;
+}
+
+
+
+/* colores fondo */
+
+body{
+    background-color: var(--color-de-fondo-principal);
+    font-family: var(--tipografia);
+}
+
+h3 {
+    background-color: var(--color-de-fondo-h3);
+    color:var(--color-letra-h3);
+}
+
+/* Colores letras*/
+
+.color-l {
+    color: var(--color-hipervinculos);
+}
+
+.color-a {
+    color: var(--color-hipervinculos-nacion)
+}
+.color-b {
+    color: var(--color-hipervinculos-pag12)
+}
+
+.color-c {
+    color: var(--color-letra);
+}
+
+.color-e {
+    color: #7b564a;
+}
+
+main {
+    color: var(--color-letra-texto) ;
+}
+
+/* imagen encabezado */
+
+img {
+    width: 100%;
+    
+}
+
+/* tamaño de la letra */
+
+.tamanio-letra {
+    font-size: larger;
+    font-weight: 900;
+}
+
+span {
+    font-size: small;
+    font-weight: 300;
+}
+
+.tamanio-h3 {
+    font-size: medium;
+}
+
+.tamanio-grande {
+    font-weight: 600;
+}
+
+.tamanio-h2 {
+    font-size: larger;
+    font-weight: 900;
+}
+
+/* footer */
+
+footer {
+    height: 100px;
+    background-color: black;
+    margin: auto;
+    text-align: center;
+}
+.pie-de-pagina {
+    color: yellow;
+    padding: 40px;
+}
