@@ -10,7 +10,7 @@
     --color-hipervinculos-pag12: #ed636a;
     --color-letra: #d8b13c;
     --color-letra-texto:#9e7766;
-    --color-letra-h3:#d4ccc9;
+    --color-letra-h3:#ebe6e4;
     --tipografia:Verdana, Arial, sans-serif;
 }
 
@@ -27,6 +27,7 @@ h3 {
     background-color: var(--color-de-fondo-h3);
     color:var(--color-letra-h3);
 }
+
 
 /* Colores letras*/
 
@@ -53,12 +54,14 @@ main {
     color: var(--color-letra-texto) ;
 }
 
+
 /* imagen encabezado */
 
 img {
     width: 100%;
     
 }
+
 
 /* tamaño de la letra */
 
@@ -73,11 +76,13 @@ span {
 }
 
 .tamanio-h3 {
-    font-size: medium;
+    font-size: 21px;
+    font-weight: 800;
+    
 }
 
 .tamanio-grande {
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .tamanio-h2 {
@@ -94,3 +99,5 @@ footer {
     text-align: center;
     line-height: 100px;
 }
+
+
