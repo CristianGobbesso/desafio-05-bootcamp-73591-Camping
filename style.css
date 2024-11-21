@@ -23,7 +23,7 @@ body{
     font-family: var(--tipografia);
 }
 
-h3 {
+h2 {
     background-color: var(--color-de-fondo-h3);
     color:var(--color-letra-h3);
 }
@@ -75,7 +75,7 @@ span {
     font-weight: 200;
 }
 
-.tamanio-h3 {
+.tamanio-h2 {
     font-size: 21px;
     font-weight: 800;
     
@@ -85,7 +85,7 @@ span {
     font-weight: 800;
 }
 
-.tamanio-h2 {
+.tamanio-h1 {
     font-size: larger;
     font-weight: 900;
 }
